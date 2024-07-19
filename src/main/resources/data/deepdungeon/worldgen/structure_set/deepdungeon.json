@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "deepdungeon:deepdungeon",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+
+    "salt": 1694797080,
+
+    "spacing": 30,
+
+    "separation": 4
+  }
+}
