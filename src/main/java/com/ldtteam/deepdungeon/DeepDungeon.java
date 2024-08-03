@@ -1,12 +1,13 @@
 package com.ldtteam.deepdungeon;
 
-import net.minecraftforge.fml.common.Mod;
+import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.common.NeoForge;
 
 @Mod("deepdungeon")
 public class DeepDungeon
 {
     public DeepDungeon()
     {
-        Mod.EventBusSubscriber.Bus.FORGE.bus().get().register(this.getClass());
+        NeoForge.EVENT_BUS.register(this.getClass());
     }
 }
